@@ -1,0 +1,16 @@
+{
+    "name": "uu/php-oauth-ms",
+    "description": "PHP OAuth authentication with Microsoft Azure AD",
+    "type": "project",
+    "require": {
+        "php": "^7.4|^8.0",
+        "microsoft/microsoft-graph": "^1.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

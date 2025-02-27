@@ -1,0 +1,44 @@
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Composer dependencies
+/vendor
+/vendor/*
+composer.phar
+composer.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PHP specific
+*.log
+*.cache
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Test coverage
+/coverage/
+/coverage/*
+
+# Build files
+/build/
+/dist/
+
+# Node modules (if using any JavaScript tools)
+/node_modules/
+
+# Other
+*.bak
+*.tmp
