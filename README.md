@@ -26,7 +26,10 @@ AZURE_AD_CLIENT_ID=your_client_id
 AZURE_AD_CLIENT_SECRET=your_client_secret
 AZURE_AD_TENANT_ID=your_tenant_id
 REDIRECT_URI=http://localhost:8000/callback.php
+ALLOWED_DOMAINS=domain1.com,domain2.com
 ```
+
+ALLOWED_DOMAINS değişkeni, kimlik doğrulaması yapılmış olsa bile hangi e-posta domainlerinin uygulamaya erişebileceğini belirler. Birden fazla domain için virgülle ayırarak yazabilirsiniz.
 
 ## Azure Portal Yapılandırması
 1. Azure Portal'da yeni bir uygulama kaydı oluşturun
